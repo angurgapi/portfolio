@@ -201,3 +201,9 @@ img {
     font-size: 3rem;
   }
 }
+
+
+.project-tile{
+  transform: scale(0.5);
+}
+
