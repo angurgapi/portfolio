@@ -1,8 +1,14 @@
-let titles = document.querySelectorAll('.project-title')
-let imgs = document.querySelectorAll('.project-image')
-console.log(imgs)
+let tiles = document.querySelectorAll('.project-tile');
+console.log(tiles);
 
-imgs.forEach(title => title.addEventListener("mouseover", function() {   
-  // highlight the mouseover target
-  title.style.transform = "scale(1.5)";
+
+tiles.forEach(tile => tile.addEventListener("mouseover", function() {   
+   tile.style.transform = "scale(1.1)";
+   tile.style.opacity = '1';
+
+}));
+
+tiles.forEach(tile => tile.addEventListener("mouseout", function() {   
+   tile.style.transform = "scale(1.0)";
+   tile.style.opacity = '.5';
 }));
