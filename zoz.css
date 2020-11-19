@@ -100,7 +100,8 @@ img {
   background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 .projects-section {
-    text-align: center;    
+  margin-top: 30px;
+  text-align: center;    
   }
 
 .section-header {
@@ -143,7 +144,6 @@ img {
 }
 
 .project-image {
-  height: 300px;
   width: 100%;
   object-fit: cover;
 }
@@ -212,4 +212,10 @@ i{
   height: 40px;
   width: 40px;
   color: white;
+}
+
+@media(max-width: 500px){
+  .project-tile{
+    min-width: 90%;
+  }
 }
