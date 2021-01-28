@@ -144,13 +144,14 @@ img {
 }
 
 .project-image {
-  width: 100%;
-  object-fit: cover;
+  height: 85%;
+  object-fit: fill;
 }
 .project-tile{
   opacity: .5;
 }
 .project-title {
+
   font-size: 2rem;
   padding: 2rem 0.5rem;
   color:#deeafc;
@@ -215,7 +216,7 @@ i{
   width: 40px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 1000px){
   .project-tile{
     min-width: 90%;
     opacity: 1;
